@@ -2,11 +2,11 @@
 %define		_class		Auth
 %define		_subclass	SASL
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} -
-Summary(pl):	%{_pearname} -
+Summary:	%{_pearname} - generate responses to common SASL mechanisms
+Summary(pl):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -20,6 +20,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Provides code to generate responses to common SASL mechanisms,
 including: Digest-MD5, CramMD5, Plain, Anonymous, Login (Pseudo
 mechanism).
+
+%description -l pl
+Ta klasa udostepnia kod do generowania odpowiedzi dla popularnych
+mechanizmów SASL, w tym: Digest-MD5, CramMD5, Plain, Anonymous, Login
+(Pseudo mechanizm).
 
 %prep
 %setup -q -c
