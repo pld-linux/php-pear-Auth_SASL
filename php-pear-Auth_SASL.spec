@@ -26,7 +26,7 @@ mechanism).
 In PEAR status of this package is: %{_status}.
 
 %description -l pl
-Ta klasa udostepnia kod do generowania odpowiedzi dla popularnych
+Ta klasa udostêpnia kod do generowania odpowiedzi dla popularnych
 mechanizmów SASL, w tym: Digest-MD5, CramMD5, Plain, Anonymous, Login
 (Pseudo mechanizm).
 
