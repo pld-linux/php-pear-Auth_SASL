@@ -1,6 +1,7 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Auth
 %define		_subclass	SASL
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
 Summary(pl):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
@@ -21,10 +22,14 @@ Provides code to generate responses to common SASL mechanisms,
 including: Digest-MD5, CramMD5, Plain, Anonymous, Login (Pseudo
 mechanism).
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Ta klasa udostepnia kod do generowania odpowiedzi dla popularnych
 mechanizmów SASL, w tym: Digest-MD5, CramMD5, Plain, Anonymous, Login
 (Pseudo mechanizm).
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
