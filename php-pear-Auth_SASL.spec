@@ -23,7 +23,7 @@ Provides code to generate responses to common SASL mechanisms,
 including: Digest-MD5, CramMD5, Plain, Anonymous, Login (Pseudo
 mechanism).
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa udostepnia kod do generowania odpowiedzi dla popularnych
