@@ -3,11 +3,12 @@
 %define		_subclass	SASL
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
 Summary(pl):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
-Release:	3
+Release:	4
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
