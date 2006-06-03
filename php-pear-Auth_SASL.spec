@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
 Summary(pl):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	6
+Version:	1.0.2
+Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	9ed28f3f9bffc8265ea2339021f5dbf5
+# Source0-md5:	e6a4f4e56dec992ac965678233437aa4
 URL:		http://pear.php.net/package/Auth_SASL/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
