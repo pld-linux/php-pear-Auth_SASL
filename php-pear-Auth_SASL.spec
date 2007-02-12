@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
-Summary(pl):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
+Summary(pl.UTF-8):   %{_pearname} - generowanie odpowiedzi dla popularnych mechanizmÃ³w SASL
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
@@ -28,9 +28,9 @@ mechanism).
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa udostêpnia kod do generowania odpowiedzi dla popularnych
-mechanizmów SASL, w tym: Digest-MD5, CramMD5, Plain, Anonymous, Login
+%description -l pl.UTF-8
+Ta klasa udostÄ™pnia kod do generowania odpowiedzi dla popularnych
+mechanizmÃ³w SASL, w tym: Digest-MD5, CramMD5, Plain, Anonymous, Login
 (Pseudo mechanizm).
 
 Ta klasa ma w PEAR status: %{_status}.
