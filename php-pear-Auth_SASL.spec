@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
-Summary(pl.UTF-8):   %{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
+Summary(pl.UTF-8):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	1
