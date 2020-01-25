@@ -1,6 +1,5 @@
 %define		_status		stable
 %define		_pearname	Auth_SASL
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - generate responses to common SASL mechanisms
 Summary(pl.UTF-8):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
