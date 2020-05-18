@@ -4,7 +4,7 @@ Summary:	%{_pearname} - generate responses to common SASL mechanisms
 Summary(pl.UTF-8):	%{_pearname} - generowanie odpowiedzi dla popularnych mechanizmów SASL
 Name:		php-pear-%{_pearname}
 Version:	1.1.0
-Release:	1
+Release:	2
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
